@@ -4,12 +4,15 @@ The Internet of Water Semi-Automatic Sensor Observation Service is a collection 
 
 ## 1. KoBoToolbox
 
-The service owner interacts with a browser-based, online/offline data collection form (Enketo) that supplies attributes on one or more "sensors" (field observation points, e.g. groundwater wells, stream gages, benthic observation posts, etc.). This form caches results in the browser until the mobile device has internet access, at which it automatically uploads the data to a PostgreSQL database on a KoBoToolbox server.
+The service owner interacts with a browser-based, online/offline data collection form (Enketo) that supplies attributes on one or more "sensors" (field observation points, e.g. groundwater wells, stream gages, benthic observation posts, etc.). This form caches results in the browser until the mobile device has internet access, at which point it automatically uploads the data to a PostgreSQL database on a KoBoToolbox server.
 
 
 The system periodically polls this server, downloading the data using the KoBo API and parsing it into a separate .csv file for each "sensor". 
 
 ## 2. Sensor Observation Service (EPA Interoperable Watersheds Network Data Appliance)
+
+See github
+
 
 
 
